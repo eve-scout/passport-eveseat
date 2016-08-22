@@ -1,0 +1,12 @@
+<p>Email: <%= user.email %></p>
+<p>Character: <%= user.characterName %> (<%= user.characterID %>)</p>
+<p>Character Photo: <%= user.characterPortrait %></p>
+<p>Corporation: <%= user.corporationName %> (<%= user.corporationID %>)</p>
+
+<% if (user.allianceID) { %>
+	<p>Alliance: <%= user.allianceName %> (<%= user.allianceID %>)</p>
+<% } %>
+
+<p>Roles: <%= user.roles.join() %></p>
+
+
