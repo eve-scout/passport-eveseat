@@ -2,7 +2,7 @@
 /* jshint expr: true */
 
 var EveSeatStrategy = require('../lib/strategy'),
-    InternalOAuthError = require('passport-oauth').InternalOAuthError;
+    InternalOAuthError = require('passport-oauth2').InternalOAuthError;
 
 
 describe('Strategy#userProfile', function() {
